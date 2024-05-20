@@ -17,3 +17,12 @@
 2024-05-20 23:12:07,597 - main - INFO - Image processed: uploaded_images\eb3ab89b21d9764692f0532f1eb9049c2a821e.jpg, people detected: 4
 2024-05-20 23:12:07,807 - main - INFO - Image downloaded and saved to: uploaded_images\62dc6ebeb0f0582d583388329c8bf06bdbf7e4.jpg
 2024-05-20 23:12:07,916 - main - INFO - Image processed: uploaded_images\62dc6ebeb0f0582d583388329c8bf06bdbf7e4.jpg, people detected: 3
+2024-05-20 23:22:29,453 - main - INFO - Rendering URL form
+2024-05-20 23:22:50,418 - main - INFO - Starting URL detection
+2024-05-20 23:22:51,172 - main - INFO - URL detection completed successfully
+2024-05-20 23:30:10,840 - main - INFO - Rendering URL form
+2024-05-20 23:31:06,526 - main - INFO - Starting URL detection
+2024-05-20 23:31:06,946 - main - INFO - Image downloaded and saved to: uploaded_images\b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-20 23:31:07,241 - main - INFO - Image processed: uploaded_images\b81a4535a001d4422654510d391383212fcc97.jpg, people detected: 5
+2024-05-20 23:31:07,441 - main - INFO - Image downloaded and saved to: uploaded_images\dsc0001.jpg
+2024-05-20 23:31:07,565 - main - INFO - Image processed: uploaded_images\dsc0001.jpg, people detected: 5

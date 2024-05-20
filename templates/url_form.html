@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Image from URL</title>
+    <title>Upload Images from URLs</title>
 </head>
 <body>
-    <h1>Upload Image from URL</h1>
+    <h1>Upload Images from URLs</h1>
     <form action="/url/" enctype="multipart/form-data" method="post">
-        <label for="image_url">Image URL:</label><br>
-        <input type="text" id="image_url" name="image_url" required><br><br>
+        <label for="image_urls">Image URLs (one per line):</label><br>
+        <textarea id="image_urls" name="image_urls" rows="10" cols="30" required></textarea><br><br>
         <button type="submit">Upload</button>
     </form>
 </body>
