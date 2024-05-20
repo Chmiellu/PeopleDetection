@@ -9,3 +9,11 @@
 2024-05-20 19:31:46,581 - main - INFO - Rendering URL form
 2024-05-20 19:36:48,492 - main - INFO - Starting URL detection
 2024-05-20 19:36:48,938 - main - INFO - URL detection completed successfully
+2024-05-20 23:11:49,196 - main - INFO - Rendering URL form
+2024-05-20 23:12:05,846 - main - INFO - Starting URL detection
+2024-05-20 23:12:06,020 - main - INFO - Image downloaded and saved to: uploaded_images\dsc0001.jpg
+2024-05-20 23:12:06,303 - main - INFO - Image processed: uploaded_images\dsc0001.jpg, people detected: 4
+2024-05-20 23:12:07,440 - main - INFO - Image downloaded and saved to: uploaded_images\eb3ab89b21d9764692f0532f1eb9049c2a821e.jpg
+2024-05-20 23:12:07,597 - main - INFO - Image processed: uploaded_images\eb3ab89b21d9764692f0532f1eb9049c2a821e.jpg, people detected: 4
+2024-05-20 23:12:07,807 - main - INFO - Image downloaded and saved to: uploaded_images\62dc6ebeb0f0582d583388329c8bf06bdbf7e4.jpg
+2024-05-20 23:12:07,916 - main - INFO - Image processed: uploaded_images\62dc6ebeb0f0582d583388329c8bf06bdbf7e4.jpg, people detected: 3
