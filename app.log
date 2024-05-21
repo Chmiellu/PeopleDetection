@@ -67,3 +67,207 @@
 2024-05-21 17:45:02,222 - producer - INFO - Rendering URL form
 2024-05-21 17:45:09,472 - producer - INFO - Starting URL detection
 2024-05-21 17:45:09,473 - producer - ERROR - An error occurred: Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?
+2024-05-21 17:56:35,443 - producer - INFO - Rendering URL form
+2024-05-21 17:56:49,151 - producer - INFO - Starting URL detection
+2024-05-21 17:56:50,391 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 9734a064-6c48-4c5d-a477-fa77558ddb99 to RabbitMQ
+2024-05-21 17:56:50,391 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 17:56:50,567 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 27ffd1b1-a2d7-480c-a961-773002f81742 to RabbitMQ
+2024-05-21 17:56:50,567 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 17:56:50,833 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID e19cb1cf-7ac1-4b87-919c-ef55f7835315 to RabbitMQ
+2024-05-21 17:56:50,833 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 17:56:50,892 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 633e875c-80ab-44f8-9732-44f0e03c33c2 to RabbitMQ
+2024-05-21 17:56:50,892 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 17:56:51,144 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID ad352b56-afba-4cbc-9f44-0490fef3430c to RabbitMQ
+2024-05-21 17:56:51,144 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 18:03:38,667 - producer - INFO - Rendering URL form
+2024-05-21 18:03:38,667 - producer - INFO - Rendering URL form
+2024-05-21 18:03:38,667 - producer - INFO - Rendering URL form
+2024-05-21 18:03:38,667 - producer - INFO - Starting URL detection
+2024-05-21 18:03:39,114 - producer - ERROR - An error occurred: Stream connection lost: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)
+2024-05-21 18:03:39,114 - producer - INFO - Starting URL detection
+2024-05-21 18:03:40,635 - producer - ERROR - An error occurred: Channel is closed.
+2024-05-21 18:42:16,076 - producer - INFO - Rendering URL form
+2024-05-21 18:42:45,135 - producer - INFO - Starting URL detection
+2024-05-21 18:42:45,918 - producer - ERROR - An error occurred: Channel is closed.
+2024-05-21 18:45:11,199 - producer - INFO - Rendering URL form
+2024-05-21 18:45:20,822 - producer - INFO - Starting URL detection
+2024-05-21 18:45:21,537 - producer - ERROR - An error occurred: Channel is closed.
+2024-05-21 18:47:10,058 - producer - INFO - Rendering URL form
+2024-05-21 18:47:25,890 - producer - INFO - Starting URL detection
+2024-05-21 18:47:26,824 - producer - ERROR - An error occurred: Channel is closed.
+2024-05-21 18:48:41,161 - producer - INFO - Rendering URL form
+2024-05-21 18:48:53,015 - producer - INFO - Starting URL detection
+2024-05-21 18:48:53,807 - producer - ERROR - An error occurred: Channel is closed.
+2024-05-21 18:49:43,371 - producer - INFO - Rendering URL form
+2024-05-21 18:49:49,664 - producer - INFO - Starting URL detection
+2024-05-21 18:49:52,214 - producer - ERROR - An error occurred: Channel is closed.
+2024-05-21 19:04:58,468 - producer - INFO - Starting URL detection
+2024-05-21 19:04:59,247 - producer - ERROR - An error occurred: Channel is closed.
+2024-05-21 19:05:35,438 - producer - INFO - Rendering URL form
+2024-05-21 19:05:38,251 - producer - INFO - Starting URL detection
+2024-05-21 19:05:39,410 - producer - ERROR - An error occurred: Channel is closed.
+2024-05-21 19:12:38,874 - producer - INFO - Rendering URL form
+2024-05-21 19:13:08,178 - producer - INFO - Starting URL detection
+2024-05-21 19:13:08,832 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID f0f3c7f5-12c4-4de6-a594-b9e3a6c653c8 to RabbitMQ
+2024-05-21 19:13:08,835 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:13:44,647 - producer - INFO - Rendering URL form
+2024-05-21 19:13:46,363 - producer - INFO - Rendering URL form
+2024-05-21 19:14:01,845 - producer - INFO - Starting URL detection
+2024-05-21 19:14:02,837 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID d7efea1f-2aea-4a90-af13-549bb64ba269 to RabbitMQ
+2024-05-21 19:14:02,841 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 19:14:03,388 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID af03edd4-c884-40be-97fb-3c88920608d1 to RabbitMQ
+2024-05-21 19:14:03,388 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:14:04,056 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 894ebb65-dc46-440c-a351-a533d232c7fd to RabbitMQ
+2024-05-21 19:14:04,056 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:14:04,460 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 81405967-69cc-451a-85b2-035452e955eb to RabbitMQ
+2024-05-21 19:14:04,460 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:14:05,322 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 2d581a62-a12d-41c0-a6ef-d4df29bdaf65 to RabbitMQ
+2024-05-21 19:14:05,323 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:14:51,429 - producer - INFO - Rendering URL form
+2024-05-21 19:14:55,047 - producer - INFO - Starting URL detection
+2024-05-21 19:14:55,738 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 97a2fb7a-b07a-4190-b7c4-81389fc817f3 to RabbitMQ
+2024-05-21 19:14:55,738 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 19:14:56,015 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 9a0e0e5c-b837-4714-b290-d1eb29f2f979 to RabbitMQ
+2024-05-21 19:14:56,015 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:14:56,449 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID ced1a6f7-a56f-442f-ab88-285c7db1c182 to RabbitMQ
+2024-05-21 19:14:56,449 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:14:56,716 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 03945bca-8e94-45a0-9a81-2e1c2745cbe9 to RabbitMQ
+2024-05-21 19:14:56,716 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:14:57,197 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 1b7202d7-56e0-4af4-b14e-796d43039adb to RabbitMQ
+2024-05-21 19:14:57,197 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:16:05,467 - producer - INFO - Rendering URL form
+2024-05-21 19:20:07,734 - producer - INFO - Rendering URL form
+2024-05-21 19:20:11,158 - producer - INFO - Starting URL detection
+2024-05-21 19:20:11,940 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 2e5fb2d5-af16-42e9-893a-c1bfdec50f72 to RabbitMQ
+2024-05-21 19:20:11,941 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 19:20:12,371 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID ea484aed-8f48-4de7-ba42-fb386789c6da to RabbitMQ
+2024-05-21 19:20:12,372 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:20:13,053 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 6491c6d6-bd44-4fe7-8494-b774548d8479 to RabbitMQ
+2024-05-21 19:20:13,054 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:20:13,470 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 2bc9e418-0c3b-4455-b86b-3065a7b07a6a to RabbitMQ
+2024-05-21 19:20:13,470 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:20:14,044 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 46708003-c2e2-484b-b7c2-8f72f0c79f59 to RabbitMQ
+2024-05-21 19:20:14,045 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:21:25,885 - producer - INFO - Rendering URL form
+2024-05-21 19:21:29,752 - producer - INFO - Rendering URL form
+2024-05-21 19:21:34,681 - producer - INFO - Starting URL detection
+2024-05-21 19:21:35,664 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID fa19b23c-105b-4084-b51d-4988cba87a4d to RabbitMQ
+2024-05-21 19:21:35,665 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 19:21:36,022 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 481932bd-fdc5-41bd-93ae-707038b13f69 to RabbitMQ
+2024-05-21 19:21:36,023 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:21:36,503 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID efeaf46f-7ee7-4790-aa83-5c3d301d93ec to RabbitMQ
+2024-05-21 19:21:36,504 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:21:36,752 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 786d9863-c000-4377-8485-2f8af8e6e02b to RabbitMQ
+2024-05-21 19:21:36,753 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:21:37,234 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID c4b66c2f-e277-4b91-b7d5-4f9ed08189fe to RabbitMQ
+2024-05-21 19:21:37,234 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:22:18,098 - producer - INFO - Rendering URL form
+2024-05-21 19:22:19,835 - producer - INFO - Rendering URL form
+2024-05-21 19:22:22,232 - producer - INFO - Starting URL detection
+2024-05-21 19:22:23,040 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID dbd795ee-129d-4682-92a9-a76ebbd1d8ee to RabbitMQ
+2024-05-21 19:22:23,040 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 19:22:23,344 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID c0126fca-6ac5-4a0a-b830-383c698cb2b7 to RabbitMQ
+2024-05-21 19:22:23,344 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:22:23,794 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID b83c200a-6512-4f53-b183-1b7ad81713ae to RabbitMQ
+2024-05-21 19:22:23,794 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:22:24,117 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID ee3712b1-ddf0-4906-b8f8-6964ec6b26bc to RabbitMQ
+2024-05-21 19:22:24,118 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:22:24,609 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 8d21bee5-6b4a-4353-9246-d7106dffc2f3 to RabbitMQ
+2024-05-21 19:22:24,617 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:49:04,145 - producer - INFO - Rendering URL form
+2024-05-21 19:49:20,965 - producer - INFO - Starting URL detection
+2024-05-21 19:49:21,523 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 18e7ff05-2d0b-49f4-b651-2b0c0ae487ca to RabbitMQ
+2024-05-21 19:49:21,524 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:49:22,338 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 3c6f265c-b209-41f3-a1f5-fe44ce72c5fb to RabbitMQ
+2024-05-21 19:49:22,338 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:55:38,462 - producer - INFO - Rendering URL form
+2024-05-21 19:55:40,035 - producer - INFO - Starting URL detection
+2024-05-21 19:55:41,565 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID d60f3ebd-744c-4be9-8d79-31f5ff9a11c7 to RabbitMQ
+2024-05-21 19:55:41,566 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 19:55:42,045 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 99c36a52-4bb1-4754-b73f-954b7e71b49c to RabbitMQ
+2024-05-21 19:55:42,045 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:55:42,628 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 2f7e63b9-c6d8-43e8-81c0-45af428b224f to RabbitMQ
+2024-05-21 19:55:42,629 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:55:43,057 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 6cbce39f-38ca-4579-98ed-87e57b0b777c to RabbitMQ
+2024-05-21 19:55:43,057 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:55:44,036 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 6963f2c4-fc11-4b56-90d4-744566ac4a4f to RabbitMQ
+2024-05-21 19:55:44,036 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:57:45,579 - producer - INFO - Rendering URL form
+2024-05-21 19:57:47,738 - producer - INFO - Starting URL detection
+2024-05-21 19:57:48,684 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 9a3d4673-5dd1-4cea-8f17-917693a5909c to RabbitMQ
+2024-05-21 19:57:48,686 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 19:57:49,053 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID bed174f8-5bf9-4590-afa6-0cc6c75b19c2 to RabbitMQ
+2024-05-21 19:57:49,054 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:57:49,792 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID cd0be79e-f8fe-4788-b274-99a5012f08d8 to RabbitMQ
+2024-05-21 19:57:49,793 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:57:50,114 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 530ac683-6e0c-4578-961e-c6493c78eb06 to RabbitMQ
+2024-05-21 19:57:50,115 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:57:51,136 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID c59c422b-c13c-4aa7-ad4d-cd83bb8c4ad5 to RabbitMQ
+2024-05-21 19:57:51,137 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:59:15,301 - producer - INFO - Rendering URL form
+2024-05-21 19:59:16,777 - producer - INFO - Starting URL detection
+2024-05-21 19:59:17,970 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 302688f6-6e19-498f-bb2e-dfe2759bd165 to RabbitMQ
+2024-05-21 19:59:17,970 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 19:59:18,523 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 5c5da778-3c59-4910-9f19-9d5ad453cf6e to RabbitMQ
+2024-05-21 19:59:18,524 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:59:19,590 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID e9bad958-d649-4811-891e-9e1faf066fec to RabbitMQ
+2024-05-21 19:59:19,591 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 19:59:19,952 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID bbc69e93-553e-45da-bcf3-91af10e18328 to RabbitMQ
+2024-05-21 19:59:19,953 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 19:59:20,717 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 1edb2ee2-86eb-4f77-ab4c-175d6f616769 to RabbitMQ
+2024-05-21 19:59:20,717 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 20:06:34,233 - producer - INFO - Rendering URL form
+2024-05-21 20:06:38,041 - producer - INFO - Starting URL detection
+2024-05-21 20:06:38,045 - producer - ERROR - Request error for URL https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg: HTTPSConnectionPool(host='static.futbolowo.pl', port=443): Max retries exceeded with url: /assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D54CE0>: Failed to resolve 'static.futbolowo.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:38,045 - producer - ERROR - Request error for URL https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg: HTTPSConnectionPool(host='media.ox.pl', port=443): Max retries exceeded with url: /thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D54680>: Failed to resolve 'media.ox.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:38,045 - producer - ERROR - Request error for URL https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg: HTTPSConnectionPool(host='slzpn.pl', port=443): Max retries exceeded with url: /images/galerie/akcja_lato/DSC02664.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D57350>: Failed to resolve 'slzpn.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:38,045 - producer - ERROR - Request error for URL https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg: HTTPSConnectionPool(host='media.ox.pl', port=443): Max retries exceeded with url: /thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D57920>: Failed to resolve 'media.ox.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:38,061 - producer - ERROR - Request error for URL https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg: HTTPSConnectionPool(host='slzpn.pl', port=443): Max retries exceeded with url: /images/galerie/akcja_lato/DSC02664.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D7C170>: Failed to resolve 'slzpn.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:40,548 - producer - INFO - Rendering URL form
+2024-05-21 20:06:43,084 - producer - INFO - Starting URL detection
+2024-05-21 20:06:43,088 - producer - ERROR - Request error for URL https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg: HTTPSConnectionPool(host='static.futbolowo.pl', port=443): Max retries exceeded with url: /assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D56C00>: Failed to resolve 'static.futbolowo.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:43,093 - producer - ERROR - Request error for URL https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg: HTTPSConnectionPool(host='media.ox.pl', port=443): Max retries exceeded with url: /thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D54DA0>: Failed to resolve 'media.ox.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:43,095 - producer - ERROR - Request error for URL https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg: HTTPSConnectionPool(host='slzpn.pl', port=443): Max retries exceeded with url: /images/galerie/akcja_lato/DSC02664.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D7C920>: Failed to resolve 'slzpn.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:43,095 - producer - ERROR - Request error for URL https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg: HTTPSConnectionPool(host='media.ox.pl', port=443): Max retries exceeded with url: /thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D7D160>: Failed to resolve 'media.ox.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:43,095 - producer - ERROR - Request error for URL https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg: HTTPSConnectionPool(host='slzpn.pl', port=443): Max retries exceeded with url: /images/galerie/akcja_lato/DSC02664.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015559D7DA00>: Failed to resolve 'slzpn.pl' ([Errno 11001] getaddrinfo failed)"))
+2024-05-21 20:06:45,221 - producer - INFO - Rendering URL form
+2024-05-21 20:06:46,383 - producer - INFO - Rendering URL form
+2024-05-21 20:10:30,211 - producer - INFO - Rendering URL form
+2024-05-21 20:10:34,496 - producer - INFO - Starting URL detection
+2024-05-21 20:10:36,831 - producer - ERROR - An error occurred: Stream connection lost: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)
+2024-05-21 20:11:38,178 - producer - INFO - Rendering URL form
+2024-05-21 20:11:43,917 - producer - INFO - Starting URL detection
+2024-05-21 20:11:45,056 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID c64f6c40-ff4b-4831-868a-cf12373af4cb to RabbitMQ
+2024-05-21 20:11:45,056 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 20:11:45,475 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 7fad9cfe-968e-420a-ad02-2dcf2fa59ae7 to RabbitMQ
+2024-05-21 20:11:45,475 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 20:11:46,245 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 700e4d35-05c0-41fe-9965-0ed67ad4d965 to RabbitMQ
+2024-05-21 20:11:46,246 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 20:11:46,508 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 28c2f046-6e0a-471f-96c2-73f1afb4ae61 to RabbitMQ
+2024-05-21 20:11:46,508 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 20:11:46,888 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 6e7c830c-1dd3-458c-ab25-0c8a379ca7bf to RabbitMQ
+2024-05-21 20:11:46,904 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 20:17:06,298 - producer - INFO - Rendering URL form
+2024-05-21 20:17:10,655 - producer - INFO - Starting URL detection
+2024-05-21 20:17:12,205 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 6390ecc5-b3d9-4b42-9d02-c8c11b1394e7 to RabbitMQ
+2024-05-21 20:17:12,206 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 20:17:12,698 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID dcfceb67-b661-4edf-aba5-aea278906e5d to RabbitMQ
+2024-05-21 20:17:12,698 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 20:17:13,997 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID c27668d2-0cee-427f-82d2-6e49c8ea636d to RabbitMQ
+2024-05-21 20:17:13,997 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 20:17:14,563 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 5e57d185-e557-4fd4-a2df-893cb6f2a4af to RabbitMQ
+2024-05-21 20:17:14,564 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 20:17:16,485 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 66b28f24-4122-4263-8063-63921a8c3b0d to RabbitMQ
+2024-05-21 20:17:16,485 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 20:17:35,023 - producer - INFO - Rendering URL form
+2024-05-21 20:17:39,140 - producer - INFO - Starting URL detection
+2024-05-21 20:17:40,322 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID a584b128-3b60-4a3c-bdf7-e54f0c9f7138 to RabbitMQ
+2024-05-21 20:17:40,323 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-21 20:17:40,701 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 1465a6ca-2e38-4d09-bde9-22ee0dcf1f03 to RabbitMQ
+2024-05-21 20:17:40,702 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 20:17:42,259 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 1ae26404-5008-4e86-a97e-619aacd2f1de to RabbitMQ
+2024-05-21 20:17:42,260 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-21 20:17:42,876 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 491f77a3-f6ab-4ca5-8960-861717c885c6 to RabbitMQ
+2024-05-21 20:17:42,876 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-21 20:17:44,895 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID cca5d56d-2ccf-4411-b4c4-af86d5368cc5 to RabbitMQ
+2024-05-21 20:17:44,895 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg

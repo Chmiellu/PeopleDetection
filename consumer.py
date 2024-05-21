@@ -58,6 +58,30 @@ def process_image(image_path):
 
     return num_people, output_image_path
 
+
+def process_image_url(image):
+    prototxt_path = 'model/MobileNetSSD_deploy.prototxt.txt'
+    model_path = 'model/MobileNetSSD_deploy.caffemodel'
+
+    net = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)
+
+    image = cv2.imread(image)
+    blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 0.007, (300, 300), 130)
+
+    net.setInput(blob)
+    detected_objects = net.forward()
+
+    draw_rectangles(image, detected_objects)
+
+    uploaded_images = 'uploaded_images'
+    output_image_path = os.path.join(uploaded_images + os.path.basename(image))
+    cv2.imwrite(output_image_path, image)
+
+    num_people = count_people(detected_objects)
+
+    return num_people, output_image_path
+
+
 def read_image_from_url(url):
     resp = urllib.request.urlopen(url)
     image = np.asarray(bytearray(resp.read()), dtype="uint8")
@@ -67,22 +91,17 @@ def read_image_from_url(url):
 def callback(ch, method, properties, body):
     try:
         task_data = json.loads(body.decode())
-        task_id = task_data['url_id']
+        task_id = task_data['task_id']
         url = task_data['url']
         file_extension = task_data['file_extension']
+        print(url)
+        print(task_id)
+        print(task_data)
 
         image = read_image_from_url(url)
 
-        count, image_with_rects = 0, image
-        output_folder = 'unknown_output'
 
-        if not os.path.exists(output_folder):
-            os.makedirs(output_folder)
-
-        filename = f"{task_id}-{count}.{file_extension}"
-        output_path = os.path.join(output_folder, filename)
-
-        cv2.imwrite(output_path, image_with_rects)
+        count, filename = process_image_url(image)
 
         message = f"Processed task with ID {task_id} by process {os.getpid()}. Detected {count} people. Image saved as {filename}. WELL DONE!"
         logging.info(message)
