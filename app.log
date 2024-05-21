@@ -26,3 +26,44 @@
 2024-05-20 23:31:07,241 - main - INFO - Image processed: uploaded_images\b81a4535a001d4422654510d391383212fcc97.jpg, people detected: 5
 2024-05-20 23:31:07,441 - main - INFO - Image downloaded and saved to: uploaded_images\dsc0001.jpg
 2024-05-20 23:31:07,565 - main - INFO - Image processed: uploaded_images\dsc0001.jpg, people detected: 5
+2024-05-21 17:11:29,119 - producer - INFO - Rendering upload form
+2024-05-21 17:12:17,024 - producer - INFO - Starting file upload
+2024-05-21 17:12:18,515 - producer - INFO - File processed successfully
+2024-05-21 17:13:10,218 - producer - INFO - Rendering URL form
+2024-05-21 17:14:03,665 - producer - INFO - Starting URL detection
+2024-05-21 17:14:04,210 - producer - ERROR - An error occurred: 'Response' object has no attribute 'spli'
+2024-05-21 17:16:22,446 - producer - INFO - Rendering URL form
+2024-05-21 17:16:26,949 - producer - INFO - Starting URL detection
+2024-05-21 17:16:27,310 - producer - ERROR - An error occurred: 'Response' object has no attribute 'split'
+2024-05-21 17:18:33,200 - producer - INFO - Starting URL detection
+2024-05-21 17:18:45,508 - producer - ERROR - An error occurred: 'Response' object has no attribute 'split'
+2024-05-21 17:19:21,820 - producer - INFO - Starting URL detection
+2024-05-21 17:19:22,811 - producer - ERROR - An error occurred: 'Response' object has no attribute 'split'
+2024-05-21 17:21:28,887 - producer - INFO - Rendering URL form
+2024-05-21 17:21:37,921 - producer - INFO - Starting URL detection
+2024-05-21 17:21:38,272 - producer - ERROR - An error occurred: 'Response' object has no attribute 'split'
+2024-05-21 17:22:47,872 - producer - INFO - Starting URL detection
+2024-05-21 17:22:52,937 - producer - ERROR - An error occurred: 'Response' object has no attribute 'split'
+2024-05-21 17:22:52,944 - producer - INFO - Rendering URL form
+2024-05-21 17:23:07,424 - producer - INFO - Starting URL detection
+2024-05-21 17:23:12,490 - producer - ERROR - An error occurred: 'Response' object has no attribute 'split'
+2024-05-21 17:33:30,374 - producer - INFO - Starting URL detection
+2024-05-21 17:33:30,381 - producer - ERROR - An error occurred: Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?
+2024-05-21 17:33:35,650 - producer - INFO - Rendering URL form
+2024-05-21 17:33:45,134 - producer - INFO - Starting URL detection
+2024-05-21 17:33:45,134 - producer - ERROR - An error occurred: Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?
+2024-05-21 17:33:52,151 - producer - INFO - Starting URL detection
+2024-05-21 17:33:52,151 - producer - ERROR - An error occurred: Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?
+2024-05-21 17:34:17,594 - producer - INFO - Starting URL detection
+2024-05-21 17:34:17,597 - producer - ERROR - An error occurred: Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?
+2024-05-21 17:38:45,820 - producer - INFO - Starting URL detection
+2024-05-21 17:38:45,828 - producer - ERROR - An error occurred: Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?
+2024-05-21 17:38:48,543 - producer - INFO - Rendering URL form
+2024-05-21 17:39:00,484 - producer - INFO - Starting URL detection
+2024-05-21 17:39:00,487 - producer - ERROR - An error occurred: Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?
+2024-05-21 17:44:25,987 - producer - INFO - Rendering upload form
+2024-05-21 17:44:35,045 - producer - INFO - Starting file upload
+2024-05-21 17:44:36,309 - producer - INFO - File processed successfully
+2024-05-21 17:45:02,222 - producer - INFO - Rendering URL form
+2024-05-21 17:45:09,472 - producer - INFO - Starting URL detection
+2024-05-21 17:45:09,473 - producer - ERROR - An error occurred: Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?
