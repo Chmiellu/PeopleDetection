@@ -59,13 +59,12 @@ def process_image(image_path):
     return num_people, output_image_path
 
 
-def process_image_url(image):
+def process_image_url(image, task_id, file_extension):
     prototxt_path = 'model/MobileNetSSD_deploy.prototxt.txt'
     model_path = 'model/MobileNetSSD_deploy.caffemodel'
 
     net = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)
 
-    image = cv2.imread(image)
     blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 0.007, (300, 300), 130)
 
     net.setInput(blob)
@@ -74,7 +73,10 @@ def process_image_url(image):
     draw_rectangles(image, detected_objects)
 
     uploaded_images = 'uploaded_images'
-    output_image_path = os.path.join(uploaded_images + os.path.basename(image))
+    if not os.path.exists(uploaded_images):
+        os.makedirs(uploaded_images)
+
+    output_image_path = os.path.join(uploaded_images, f"marked_{task_id}.{file_extension}")
     cv2.imwrite(output_image_path, image)
 
     num_people = count_people(detected_objects)
@@ -94,16 +96,12 @@ def callback(ch, method, properties, body):
         task_id = task_data['task_id']
         url = task_data['url']
         file_extension = task_data['file_extension']
-        print(url)
-        print(task_id)
-        print(task_data)
 
         image = read_image_from_url(url)
 
+        count, filename = process_image_url(image, task_id, file_extension)
 
-        count, filename = process_image_url(image)
-
-        message = f"Processed task with ID {task_id} by process {os.getpid()}. Detected {count} people. Image saved as {filename}. WELL DONE!"
+        message = f"Processed task with ID {task_id} by process {os.getpid()}. Detected {count} people. Image saved as XD filename. WELL DONE!"
         logging.info(message)
 
     except Exception as error:

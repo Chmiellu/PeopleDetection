@@ -49,7 +49,6 @@ def clean_url(url):
 
 
 def fix_url(url):
-    # If the URL does not have a scheme, add 'http://'
     if not re.match(r'^(?:http|ftp)s?://', url):
         url = 'http://' + url
     return url
