@@ -570,3 +570,42 @@
 2024-05-22 20:20:24,938 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
 2024-05-22 20:20:25,088 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID b1b29cad-d5ac-47d0-b6de-45abd90c0d85 to RabbitMQ
 2024-05-22 20:20:25,088 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-23 12:00:02,913 - producer - INFO - Rendering upload form
+2024-05-23 12:00:32,377 - producer - INFO - Starting file upload
+2024-05-23 12:00:32,894 - producer - INFO - File processed successfully
+2024-05-23 12:08:47,797 - producer - INFO - Rendering main page
+2024-05-23 12:09:03,863 - producer - INFO - Rendering upload form
+2024-05-23 12:09:07,075 - producer - INFO - Rendering URL form
+2024-05-23 13:14:56,266 - producer - INFO - Rendering main page
+2024-05-23 13:16:17,503 - producer - INFO - Rendering URL form
+2024-05-23 13:16:21,068 - producer - INFO - Rendering upload form
+2024-05-23 13:18:56,649 - producer - INFO - Rendering main page
+2024-05-23 13:19:01,554 - producer - INFO - Rendering upload form
+2024-05-23 13:19:04,828 - producer - INFO - Rendering URL form
+2024-05-23 13:19:14,790 - producer - INFO - Rendering upload form
+2024-05-23 13:19:22,898 - producer - INFO - Rendering URL form
+2024-05-23 13:21:30,203 - producer - INFO - Rendering upload form
+2024-05-23 13:21:43,614 - producer - INFO - Rendering upload form
+2024-05-23 13:21:51,066 - producer - INFO - Rendering upload form
+2024-05-23 13:22:04,692 - producer - INFO - Rendering upload form
+2024-05-23 13:22:14,302 - producer - INFO - Rendering URL form
+2024-05-23 13:22:39,270 - producer - INFO - Rendering upload form
+2024-05-23 13:23:34,797 - producer - INFO - Rendering upload form
+2024-05-23 13:24:03,429 - producer - INFO - Rendering upload form
+2024-05-23 13:24:13,008 - producer - INFO - Rendering upload form
+2024-05-23 13:24:39,229 - producer - INFO - Rendering upload form
+2024-05-23 13:25:06,702 - producer - INFO - Starting file upload
+2024-05-23 13:25:07,237 - producer - INFO - File processed successfully
+2024-05-23 13:26:03,186 - producer - INFO - Rendering URL form
+2024-05-23 13:29:26,167 - producer - INFO - Starting URL detection
+2024-05-23 13:29:27,701 - producer - ERROR - An error occurred: Stream connection lost: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)
+2024-05-23 13:30:16,944 - producer - INFO - Rendering main page
+2024-05-23 13:30:19,073 - producer - INFO - Rendering URL form
+2024-05-23 13:30:24,459 - producer - INFO - Starting URL detection
+2024-05-23 13:30:25,897 - producer - INFO -  [x] Sent URL: https://zootampa.org/wp-content/uploads/2023/01/6tAABPgs.jpeg with ID dd14d241-79c5-4047-b038-7768ca802b99 to RabbitMQ
+2024-05-23 13:30:25,897 - producer - INFO - Image URL sent to RabbitMQ queue: https://zootampa.org/wp-content/uploads/2023/01/6tAABPgs.jpeg
+2024-05-23 13:32:13,859 - producer - INFO - Starting URL detection
+2024-05-23 13:32:15,813 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 5095d5fb-aead-4c74-bbcd-00d870fc2b34 to RabbitMQ
+2024-05-23 13:32:15,814 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-23 13:32:15,943 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 50d5b227-db97-421b-8d66-5e9065e8f5f4 to RabbitMQ
+2024-05-23 13:32:15,944 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg

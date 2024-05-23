@@ -1,15 +1,47 @@
-<!-- upload_form.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload File</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            margin: 0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        form {
+            display: inline-block;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 10px auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <h1>Upload File</h1>
+    <p>Select an image file from your computer and then click 'Upload'.</p>
     <form action="/upload/" enctype="multipart/form-data" method="post">
         <input name="file" type="file">
+        <br>
         <button type="submit">Upload</button>
     </form>
 </body>

@@ -14,11 +14,13 @@ import pika
 import aio_pika
 import json
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
-file_handler = logging.FileHandler('app.log')
+file_handler = logging.FileHandler("app.log")
 file_handler.setLevel(logging.INFO)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
@@ -26,13 +28,15 @@ app = FastAPI()
 
 templates = Jinja2Templates(directory="templates")
 
-RABBITMQ_HOST = 'localhost'
+RABBITMQ_HOST = "localhost"
 RABBITMQ_PORT = 5672
 
-connection = pika.BlockingConnection(pika.ConnectionParameters(host=RABBITMQ_HOST, port=RABBITMQ_PORT))
+connection = pika.BlockingConnection(
+    pika.ConnectionParameters(host=RABBITMQ_HOST, port=RABBITMQ_PORT)
+)
 channel = connection.channel()
 
-queue_name = 'chmiel_kolejka'
+queue_name = "chmiel_kolejka"
 channel.queue_declare(queue=queue_name)
 
 consumer_processes = []
@@ -44,26 +48,32 @@ async def get_rabbitmq_connection():
 
 def clean_url(url):
     cleaned_url = url.strip()
-    cleaned_url = re.sub(r'[\r\n]', '', cleaned_url)
+    cleaned_url = re.sub(r"[\r\n]", "", cleaned_url)
     return cleaned_url
 
 
 def fix_url(url):
-    if not re.match(r'^(?:http|ftp)s?://', url):
-        url = 'http://' + url
+    if not re.match(r"^(?:http|ftp)s?://", url):
+        url = "http://" + url
     return url
 
 
 def send_url_to_queue(url):
     url_id = str(uuid.uuid4())
-    file_extension = url.split('.')[-1]
-    message_body = json.dumps({'task_id': url_id, 'url': url, 'file_extension': file_extension})
+    file_extension = url.split(".")[-1]
+    message_body = json.dumps(
+        {"task_id": url_id, "url": url, "file_extension": file_extension}
+    )
 
-    channel.basic_publish(exchange='', routing_key=queue_name, body=message_body)
+    channel.basic_publish(exchange="", routing_key=queue_name, body=message_body)
 
     message = f" [x] Sent URL: {url} with ID {url_id} to RabbitMQ"
     logger.info(message)
 
+@app.get("/", response_class=HTMLResponse)
+async def main_page(request: Request):
+    logger.info("Rendering main page")
+    return templates.TemplateResponse("index.html", {"request": request})
 
 @app.get("/upload/", response_class=HTMLResponse)
 async def upload_form(request: Request):
@@ -87,7 +97,12 @@ async def upload_file(file: UploadFile = File(...)):
         os.remove(file_path)
 
         logger.info("File processed successfully")
-        return JSONResponse(content={"Number of detected people": num_people, "output_image_path": output_image_path})
+        return JSONResponse(
+            content={
+                "Number of detected people": num_people,
+                "output_image_path": output_image_path,
+            }
+        )
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
         return JSONResponse(content={"error": str(e)}, status_code=500)
@@ -128,4 +143,3 @@ async def detect_people_from_urls(request: Request):
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
         return JSONResponse(content={"error": str(e)}, status_code=500)
-

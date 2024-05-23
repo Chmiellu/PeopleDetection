@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .description {
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the People Detection App</h1>
+    <div class="description">
+        <p>This application allows you to detect the number of people in an image. You have two options:</p>
+        <ul>
+            <li><strong>Upload Image:</strong> You can upload an image from your local device.</li>
+            <li><strong>Process Image URL:</strong> You can provide a URL to an online image.</li>
+        </ul>
+    </div>
+    <div class="button-container">
+        <form action="/upload/" method="get">
+            <button type="submit">Upload Image</button>
+        </form>
+        <form action="/url/" method="get">
+            <button type="submit">Process Image URL</button>
+        </form>
+    </div>
+</body>
+</html>
