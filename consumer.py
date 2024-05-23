@@ -25,9 +25,13 @@ channel.basic_qos(prefetch_count=1)
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[logging.StreamHandler()]
+    handlers=[logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
+
+processed_urls = {}
+info_messages = []
+
 
 def draw_rectangles(image, detected_objects):
     for i in range(detected_objects.shape[2]):
@@ -129,11 +133,14 @@ def callback(ch, method, properties, body):
 
         count, filename = process_image_url(image, task_id, file_extension)
 
+        if url not in processed_urls:
+            processed_urls[url] = count
+            info_messages.append(f"{count} people detected on URL: {url}")
+
         message = f"Processed task with ID {task_id} by process {os.getpid()}. Detected {count} people. Image saved as {filename}. WELL DONE!"
         info = f"{count} people detected on URL:{url}"
 
         logging.info(message)
-        print(Fore.GREEN + info)
 
     except Exception as error:
         error_message = f"Error processing task: {str(error)}"
@@ -148,6 +155,7 @@ def start_consuming():
     )
     channel.start_consuming()
 
+
 def handle_exit(signum, frame):
     logger.info("Gracefully shutting down...")
     try:
@@ -157,7 +165,13 @@ def handle_exit(signum, frame):
             connection.close()
     except Exception as e:
         logger.error(f"Error during shutdown: {e}")
+
+    print(Fore.GREEN + "\nSummary of processed URLs:")
+    for message in info_messages:
+        print(Fore.GREEN + message)
+
     exit(0)
+
 
 if __name__ == "__main__":
     signal.signal(signal.SIGINT, handle_exit)

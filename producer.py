@@ -70,10 +70,12 @@ def send_url_to_queue(url):
     message = f" [x] Sent URL: {url} with ID {url_id} to RabbitMQ"
     logger.info(message)
 
+
 @app.get("/", response_class=HTMLResponse)
 async def main_page(request: Request):
     logger.info("Rendering main page")
     return templates.TemplateResponse("index.html", {"request": request})
+
 
 @app.get("/upload/", response_class=HTMLResponse)
 async def upload_form(request: Request):
