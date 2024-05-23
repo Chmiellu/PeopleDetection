@@ -5,6 +5,10 @@ import cv2
 import os
 import numpy as np
 import pika
+import signal
+from colorama import Fore, Style, init
+
+init(autoreset=True)
 
 RABBITMQ_HOST = "localhost"
 RABBITMQ_PORT = 5672
@@ -18,6 +22,12 @@ queue_name = "chmiel_kolejka"
 channel.queue_declare(queue=queue_name)
 channel.basic_qos(prefetch_count=1)
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler()]
+)
+logger = logging.getLogger(__name__)
 
 def draw_rectangles(image, detected_objects):
     for i in range(detected_objects.shape[2]):
@@ -119,8 +129,11 @@ def callback(ch, method, properties, body):
 
         count, filename = process_image_url(image, task_id, file_extension)
 
-        message = f"Processed task with ID {task_id} by process {os.getpid()}. Detected {count} people. Image saved as XD filename. WELL DONE!"
+        message = f"Processed task with ID {task_id} by process {os.getpid()}. Detected {count} people. Image saved as {filename}. WELL DONE!"
+        info = f"{count} people detected on URL:{url}"
+
         logging.info(message)
+        print(Fore.GREEN + info)
 
     except Exception as error:
         error_message = f"Error processing task: {str(error)}"
@@ -135,6 +148,18 @@ def start_consuming():
     )
     channel.start_consuming()
 
+def handle_exit(signum, frame):
+    logger.info("Gracefully shutting down...")
+    try:
+        if channel.is_open:
+            channel.close()
+        if connection.is_open:
+            connection.close()
+    except Exception as e:
+        logger.error(f"Error during shutdown: {e}")
+    exit(0)
 
 if __name__ == "__main__":
+    signal.signal(signal.SIGINT, handle_exit)
+    signal.signal(signal.SIGTERM, handle_exit)
     start_consuming()

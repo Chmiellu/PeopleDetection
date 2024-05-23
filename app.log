@@ -609,3 +609,39 @@
 2024-05-23 13:32:15,814 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
 2024-05-23 13:32:15,943 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 50d5b227-db97-421b-8d66-5e9065e8f5f4 to RabbitMQ
 2024-05-23 13:32:15,944 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-23 13:41:24,819 - producer - INFO - Rendering main page
+2024-05-23 13:41:26,646 - producer - INFO - Rendering URL form
+2024-05-23 13:41:34,211 - producer - INFO - Starting URL detection
+2024-05-23 13:41:34,470 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 62f79ba4-85ca-46c4-a2ec-d715475c7939 to RabbitMQ
+2024-05-23 13:41:34,471 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-23 13:41:34,606 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 783b5b74-c251-40f1-91eb-60493bf5694f to RabbitMQ
+2024-05-23 13:41:34,608 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-23 13:49:12,252 - producer - INFO - Starting URL detection
+2024-05-23 13:49:12,552 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 6b516a5b-0ed2-4d9f-9ca8-52fcead19954 to RabbitMQ
+2024-05-23 13:49:12,552 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-23 13:49:12,733 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 56950f6d-aa10-4a82-a48d-f88773c4a4ca to RabbitMQ
+2024-05-23 13:49:12,733 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-23 14:27:46,556 - producer - INFO - Starting URL detection
+2024-05-23 14:27:47,797 - producer - ERROR - An error occurred: Stream connection lost: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)
+2024-05-23 14:28:54,763 - producer - INFO - Rendering main page
+2024-05-23 14:28:56,780 - producer - INFO - Rendering URL form
+2024-05-23 14:28:59,580 - producer - INFO - Starting URL detection
+2024-05-23 14:29:00,705 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID 5591cdfa-a1dd-41b8-974b-3da59bcd2b42 to RabbitMQ
+2024-05-23 14:29:00,706 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-23 14:29:00,852 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID bf9b9f30-0605-42fd-b52e-c636b6097980 to RabbitMQ
+2024-05-23 14:29:00,853 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-23 14:29:01,108 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 10c52885-a120-4943-858d-1ea96f451a44 to RabbitMQ
+2024-05-23 14:29:01,109 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-23 14:29:02,595 - producer - INFO -  [x] Sent URL: https://zootampa.org/wp-content/uploads/2023/01/6tAABPgs.jpeg with ID d26f0e7a-226e-45cd-88e8-aa85dcb4ad6c to RabbitMQ
+2024-05-23 14:29:02,595 - producer - INFO - Image URL sent to RabbitMQ queue: https://zootampa.org/wp-content/uploads/2023/01/6tAABPgs.jpeg
+2024-05-23 14:39:54,496 - producer - INFO - Rendering main page
+2024-05-23 14:40:03,056 - producer - INFO - Rendering URL form
+2024-05-23 14:40:07,213 - producer - INFO - Starting URL detection
+2024-05-23 14:40:08,378 - producer - INFO -  [x] Sent URL: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg with ID b4cfc30b-a073-437a-bdf7-a30cbcf10db8 to RabbitMQ
+2024-05-23 14:40:08,378 - producer - INFO - Image URL sent to RabbitMQ queue: https://static.futbolowo.pl/assets/870/a/3/b81a4535a001d4422654510d391383212fcc97.jpg
+2024-05-23 14:40:08,512 - producer - INFO -  [x] Sent URL: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg with ID 87ff12bd-f00f-43a0-8449-46e6748f3b0e to RabbitMQ
+2024-05-23 14:40:08,512 - producer - INFO - Image URL sent to RabbitMQ queue: https://media.ox.pl/thumbnails/w867-h578-es/upload/wiadomosci/zip/2023/10/08/1851/PPMZ/dsc0001.jpg
+2024-05-23 14:40:08,680 - producer - INFO -  [x] Sent URL: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg with ID 3e3530b9-913b-4c72-9963-f5138e07283f to RabbitMQ
+2024-05-23 14:40:08,680 - producer - INFO - Image URL sent to RabbitMQ queue: https://slzpn.pl/images/galerie/akcja_lato/DSC02664.jpg
+2024-05-23 14:40:10,216 - producer - INFO -  [x] Sent URL: https://zootampa.org/wp-content/uploads/2023/01/6tAABPgs.jpeg with ID 2f61f9bf-b196-435b-b16f-f685b68c7024 to RabbitMQ
+2024-05-23 14:40:10,217 - producer - INFO - Image URL sent to RabbitMQ queue: https://zootampa.org/wp-content/uploads/2023/01/6tAABPgs.jpeg
