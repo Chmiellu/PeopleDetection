@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Image URL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 60vh;
+            margin: 0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        form {
+            display: inline-block;
+        }
+        textarea {
+            display: block;
+            margin: 10px auto;
+            width: 300px;
+            height: 100px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Process Image URL</h1>
+    <form action="/url/" method="post">
+        <textarea name="image_urls" placeholder="Enter image URLs, one per line"></textarea>
+        <button type="submit">Process</button>
+    </form>
+</body>
+</html>
