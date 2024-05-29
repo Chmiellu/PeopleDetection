@@ -2,15 +2,13 @@ import logging
 import os
 import uuid
 import re
-from http.client import HTTPException
+import asyncio
 from fastapi import FastAPI, UploadFile, File, Request, Form
 from fastapi.responses import JSONResponse, HTMLResponse
-import requests
+import aiohttp
 from fastapi.templating import Jinja2Templates
 import shutil
-import time
 from consumer import process_image
-import pika
 import aio_pika
 import json
 
@@ -31,19 +29,11 @@ templates = Jinja2Templates(directory="templates")
 RABBITMQ_HOST = "localhost"
 RABBITMQ_PORT = 5672
 
-connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host=RABBITMQ_HOST, port=RABBITMQ_PORT)
-)
-channel = connection.channel()
-
 queue_name = "chmiel_kolejka"
-channel.queue_declare(queue=queue_name)
-
-consumer_processes = []
 
 
 async def get_rabbitmq_connection():
-    return await aio_pika.connect_robust("amqp://guest:guest@localhost/")
+    return await aio_pika.connect_robust(f"amqp://guest:guest@{RABBITMQ_HOST}/")
 
 
 def clean_url(url):
@@ -58,14 +48,17 @@ def fix_url(url):
     return url
 
 
-def send_url_to_queue(url):
+async def send_url_to_queue(url, channel):
     url_id = str(uuid.uuid4())
     file_extension = url.split(".")[-1]
     message_body = json.dumps(
         {"task_id": url_id, "url": url, "file_extension": file_extension}
     )
 
-    channel.basic_publish(exchange="", routing_key=queue_name, body=message_body)
+    await channel.default_exchange.publish(
+        aio_pika.Message(body=message_body.encode()),
+        routing_key=queue_name,
+    )
 
     message = f" [x] Sent URL: {url} with ID {url_id} to RabbitMQ"
     logger.info(message)
@@ -116,6 +109,18 @@ async def url_form(request: Request):
     return templates.TemplateResponse("url_form.html", {"request": request})
 
 
+async def fetch_url(session, url):
+    try:
+        async with session.get(url) as response:
+            if response.status != 200:
+                logger.error(f"Cannot download image from URL: {url}")
+                return None
+            return url
+    except Exception as e:
+        logger.error(f"Request error for URL {url}: {str(e)}")
+        return None
+
+
 @app.post("/url/")
 async def detect_people_from_urls(request: Request):
     try:
@@ -124,22 +129,20 @@ async def detect_people_from_urls(request: Request):
         image_urls = form_data["image_urls"].split()
         valid_urls = []
 
-        for image_url in image_urls:
-            cleaned_url = clean_url(image_url)
-            fixed_url = fix_url(cleaned_url)
+        cleaned_urls = [fix_url(clean_url(url)) for url in image_urls]
 
-            try:
-                response = requests.get(fixed_url)
-                if response.status_code != 200:
-                    logger.error(f"Cannot download image from URL: {fixed_url}")
-                    continue
+        connection = await get_rabbitmq_connection()
+        channel = await connection.channel()
+        await channel.declare_queue(queue_name)
 
-                valid_urls.append(fixed_url)
-                send_url_to_queue(fixed_url)
-                logger.info(f"Image URL sent to RabbitMQ queue: {fixed_url}")
-            except requests.exceptions.RequestException as e:
-                logger.error(f"Request error for URL {fixed_url}: {str(e)}")
-                continue
+        async with aiohttp.ClientSession() as session:
+            tasks = [fetch_url(session, url) for url in cleaned_urls]
+            results = await asyncio.gather(*tasks)
+
+            valid_urls = [url for url in results if url]
+
+            publish_tasks = [send_url_to_queue(url, channel) for url in valid_urls]
+            await asyncio.gather(*publish_tasks)
 
         return {"message": f"{len(valid_urls)} URL(s) processed"}
     except Exception as e:
